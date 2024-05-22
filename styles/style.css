@@ -1,0 +1,169 @@
+.page {
+  inline-size: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Curinn, sans-serif;
+}
+
+.page__size {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  inline-size: 952px;
+  max-inline-size: 952px;
+}
+
+.header__container {
+  margin-block-start: 93px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 133px;
+}
+
+.wedding__invite {
+  font-family: Novelist;
+  font-size: 80px;
+  font-size: clamp(3.4375rem, 2.3289rem + 4.1736vw, 5rem);
+  font-weight: 200;
+}
+
+.image__container {
+  background-image: url("../images/mainPhoto.JPG");
+  inline-size: 666px;
+  block-size: 550px;
+  background-size: cover;
+  background-position: 20%;
+}
+.header__image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  inline-size: 673px;
+  block-size: 755px;
+}
+.names {
+  font-family: Heather, sans-serif;
+  font-size: clamp(3rem, 0.8715rem + 8.0134vw, 6rem);
+  position: absolute;
+}
+
+.benjamin {
+  top: 0;
+}
+
+.elizabeth {
+  bottom: 0;
+  right: 0;
+}
+
+.first__section {
+  margin-block-start: 120px;
+}
+
+.block__title {
+  font-family: Novelist, sans-serif;
+  font-size: clamp(2rem, 0.581rem + 5.3422vw, 4rem);
+  font-weight: 200;
+  text-align: center;
+}
+
+.block__text {
+  font-family: Cruinn, sans-serif;
+  font-size: clamp(1.25rem, 0.3631rem + 3.3389vw, 2.5rem);
+  font-weight: 200;
+  text-align: center;
+}
+
+.first__section-block-text {
+  margin-block-start: 47px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 43px;
+}
+
+.heart__svg {
+  margin-block-start: 73px;
+  margin-block-end: 88px;
+}
+
+.calendar__wedding {
+  max-inline-size: 698px;
+  max-block-size: 542px;
+  object-fit: cover;
+  margin-block-start: 53px;
+}
+
+.section__address {
+  margin-block-start: 89px;
+  margin-block-end: 146px;
+}
+
+.block__title-address {
+  margin-block-end: 18px;
+}
+
+.block__text-address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.block__text-p-address {
+  inline-size: 658px;
+}
+
+.iframe__container {
+  position: relative;
+}
+.iframe__line {
+  position: absolute;
+}
+
+.right__line-nav {
+  bottom: 80%;
+}
+
+.left__line-nav {
+  right: 85%;
+  top: 97.5%;
+}
+
+.timing__list {
+  margin-block-start: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  font-family: Novelist, sans-serif;
+}
+
+.timing__list-item {
+  inline-size: 545px;
+  block-size: 102px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.item_timer {
+  text-align: center;
+  font-size: clamp(1.5rem, 0.4357rem + 4.0067vw, 3rem);
+}
+
+.item_description {
+  text-align: center;
+  font-family: Cruinn, sans-serif;
+  font-size: clamp(1.25rem, 0.3631rem + 3.3389vw, 2.5rem);
+}
+
+.infinity__image {
+  inline-size: 50px;
+  block-size: 35px;
+}

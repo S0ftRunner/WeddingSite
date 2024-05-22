@@ -1,0 +1,20 @@
+@font-face {
+  font-family: Novelist;
+  src: url('./Novelist.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Heather;
+  src: url('./Heather.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Cruinn;
+  src: url('./Cruinn.ttf') format('truetype');
+  font-weight: 400;
+  font-display: swap;
+}
