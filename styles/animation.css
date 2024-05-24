@@ -7,3 +7,19 @@
     margin-top: 0;
   }
  } */
+
+/* 
+ .circles__animation {
+  animation-name: showCircles;
+  animation-duration: 2s;
+ }
+
+ @keyframes showCircles {
+  from {
+    margin-left: 300%;
+  }
+
+  to {
+    margin-left: 0;
+  }
+ } */
