@@ -23,3 +23,28 @@
     margin-left: 0;
   }
  } */
+
+ @keyframes tgIcon {
+  
+  0% {
+    transform: translate(0);
+  }
+
+  20% {
+    transform: translate(3px);
+  }
+
+  40% {
+    transform: translate(0);
+  }
+
+  60% {
+    transform: translate(-3px);
+  }
+
+  80% {
+    transform: translate(0);
+  }
+
+ 
+ }
