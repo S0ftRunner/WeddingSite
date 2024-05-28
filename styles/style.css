@@ -95,14 +95,23 @@
   margin-block-end: 88px;
 }
 
+.section__navigation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .calendar__wedding {
-  max-inline-size: 698px;
-  max-block-size: 542px;
+  inline-size: 698px;
+  block-size: 542px;
   object-fit: cover;
   margin-block-start: 53px;
 }
 
 .section__address {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin-block-start: 89px;
   margin-block-end: 146px;
 }
@@ -345,12 +354,11 @@
   align-items: center;
   flex-direction: column;
   gap: 80px;
-
 }
 
 .thanks__title {
   font-family: Heather, sans-serif;
-  inline-size:100%;
+  inline-size: 100%;
   text-align: center;
 }
 
@@ -382,8 +390,12 @@
   font-size: clamp(1.25rem, 0.3631rem + 3.3389vw, 2.5rem);
 }
 
-
 @media (max-width: 425px) {
+
+  .page__size {
+    inline-size: 425px;
+  }
+
   .header__container {
     margin-block-start: 27px;
     display: flex;
@@ -416,4 +428,68 @@
   .article__description {
     inline-size: 340px;
   }
+
+  .first__section {
+    margin-block-start: 80px;
+  }
+
+  .first__section-block-text {
+    gap: 10px;
+  }
+
+  .heart__svg {
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+  }
+
+  .calendar__wedding {
+    inline-size: 269px;
+    block-size: 209px;
+    object-fit: cover;
+    margin-block-start: 20px;
+  }
+
+  .section__address {
+    margin-block-start: 40px;
+    margin-block-end: 40px;
+  }
+
+  .iframe__container {
+    inline-size: 336px;
+    block-size: 247px;
+  }
+
+  .block__text-address {
+    gap: 20px;
+  }
+
+  .timing__list {
+    margin-block-start: 20px;
+    gap: 0;
+  }
+
+  .infinity__image {
+    inline-size: 30px;
+    block-size: 20px;
+  }
+
+  .list-item__container {
+    block-size: 90px;
+  }
+
+  
+  .articles__container {
+    gap: 40px;
+  }
+
+  .section__timing {
+    margin-block-end: 20px;
+  }
+
+  .details__article-colored-circles {
+    inline-size: 35%;
+    margin-block-start: 0;
+  }
+
+
 }
