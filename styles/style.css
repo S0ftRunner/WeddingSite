@@ -30,7 +30,6 @@
 
 .wedding__invite {
   font-family: Novelist;
-  font-size: 80px;
   font-size: clamp(3.4375rem, 2.3289rem + 4.1736vw, 5rem);
   font-weight: 200;
 }
@@ -381,4 +380,40 @@
   text-align: center;
   font-family: Cruinn, sans-serif;
   font-size: clamp(1.25rem, 0.3631rem + 3.3389vw, 2.5rem);
+}
+
+
+@media (max-width: 425px) {
+  .header__container {
+    margin-block-start: 27px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+  }
+  .header__image-container {
+    block-size: 380px;
+  }
+
+  .wedding__invite {
+    inline-size: 332px;
+    text-align: center;
+  }
+
+  .image__container {
+    inline-size: 307.5px;
+    block-size: 249px;
+  }
+
+  .elizabeth {
+    right: 27%;
+  }
+
+  .block__text-p {
+    inline-size: 340px;
+  }
+
+  .article__description {
+    inline-size: 340px;
+  }
 }
