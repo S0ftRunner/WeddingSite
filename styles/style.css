@@ -381,6 +381,9 @@
 }
 
 .waiting__for-you-container {
+
+  margin-block-start: 20px;
+  margin-block-end: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -390,10 +393,9 @@
   font-size: clamp(1.25rem, 0.3631rem + 3.3389vw, 2.5rem);
 }
 
-@media (max-width: 425px) {
-
+@media  (max-width: 600px) {
   .page__size {
-    inline-size: 425px;
+    inline-size: 375px;
   }
 
   .header__container {
@@ -403,8 +405,13 @@
     align-items: center;
     gap: 80px;
   }
+
   .header__image-container {
     block-size: 380px;
+  }
+
+  .first__section-block-text {
+    margin-block-start: 0;
   }
 
   .wedding__invite {
@@ -418,7 +425,7 @@
   }
 
   .elizabeth {
-    right: 27%;
+    right: 15%;
   }
 
   .block__text-p {
@@ -477,9 +484,8 @@
     block-size: 90px;
   }
 
-  
   .articles__container {
-    gap: 40px;
+    gap: 20px;
   }
 
   .section__timing {
@@ -487,9 +493,150 @@
   }
 
   .details__article-colored-circles {
-    inline-size: 35%;
     margin-block-start: 0;
   }
 
+  .circle:hover {
+    transform: scale(125%);
+  }
 
+  .style-img {
+    inline-size: 91px;
+    block-size: 190px;
+  }
+
+  .details__article-women-style {
+    inline-size: 40%;
+  }
+
+  .style-img:hover {
+    transform: scale(115%);
+  }
+
+  .details__article-men-style {
+    inline-size: 40%;
+  }
+
+  .article__container-minimize-gap {
+    gap: 20px;
+  }
+
+  .article__description-telegram {
+    margin-block-end: 100px;
+  }
+
+  .telegram__link {
+    bottom: 0;
+  }
+
+  .telegram-link__svg {
+    width: 100px;
+    height: 35px;
+
+  }
+
+  .telegram__link-icon {
+    top: -500%;
+    right: 1%;
+  }
+
+  .icon_tg-img {
+    block-size: 44px;
+    inline-size: 44px;
+  }
+
+  #first-heart {
+    display: none;
+  }
+
+  .right__line-nav {
+    display: none;
+  }
+  .left__line-nav {
+    display: none;
+  }
+
+  .svg__timing {
+    display: none;
+  }
+
+  .timing__list-item {
+    block-size: 80px;
+    inline-size: 375px;
+  }
+
+  .section__details {
+    margin-block-start: 20px;
+  }
+
+  .heart__gift {
+    width: 150px;
+    bottom: -50%;
+    left: -10%;
+  }
+
+  .second__heart {
+    display: none;
+  }
+
+  .details__article-women-style {
+    inline-size: 100%;
+    gap: 10px;
+  }
+
+  .details__article-men-style {
+    inline-size: 100%;
+    gap: 10px;
+  }
+
+  .divider-line {
+    display: none;
+  }
+
+  .form__btn {
+    inline-size: 100%;
+    block-size: 100%;
+  }
+
+  .photos__container {
+    gap: 2px;
+    inline-size: 375px;
+    grid-template-columns: repeat(3, 127px);
+    grid-template-rows: repeat(3, 127px);
+    justify-content: center;
+  }
+
+  .photo__of-us {
+    inline-size: 127px;
+    block-size: 127px;
+  }
+
+  .photo__of-us:hover {
+    transform: scale(115%);
+  }
+
+  .thanks__section {
+    margin-block-start: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .header__container {
+    inline-size: 375px;
+  }
+
+  .header__image-container {
+    inline-size: 375px;
+    block-size: 380px;
+  }
+
+  .telegram__link-pointer {
+    left: 50%;
+  }
+
+  .thanks__title {
+    inline-size: 375px;
+  }
 }

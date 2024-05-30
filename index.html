@@ -2,12 +2,13 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Свадьба. Соколовы</title>
-    <link rel="stylesheet" href="./styles/globals.css" />
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge" /> -->
+    <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animation.css" />
+    <title>Свадьба. Соколовы</title>
   </head>
   <body class="page">
     <header class="header page__size">
@@ -23,7 +24,7 @@
     </header>
     <main class="main page__size">
       <section class="section first__section page__size">
-        <h2 class="first__section-title block__title">Дорогие друзья!</h2>
+        <h2 class="first__section-title block__title">Дорогие гости!</h2>
         <div class="first__section-block-text block__text">
           <p class="block__text-p">
             Один день в этом году будет для нас особенным, и мы хотим провести
@@ -39,7 +40,7 @@
       <section class="section heart__svg">
         <svg
           id="first-heart"
-          width="25"
+          width="1026"
           height="106"
           viewBox="0 0 1026 106"
           fill="none"
@@ -143,6 +144,7 @@
       </section>
 
       <svg
+        class="svg__timing"
         width="1023"
         height="94"
         viewBox="0 0 1023 94"
@@ -316,6 +318,7 @@
           </article>
 
           <svg
+            class="second__heart"
             width="949"
             height="99"
             viewBox="0 0 949 99"
@@ -371,7 +374,7 @@
             class="articles__container article__container-minimize-gap article__relative"
           >
             <h3 class="article__header">telegram</h3>
-            <p class="article__description">
+            <p class="article__description article__description-telegram">
               Мы создали телеграмм-чат нашего праздника, где можно будет узнать
               дополнительную информацию, поделиться фотографиями и видео в день
               и после свадьбы.
@@ -382,6 +385,7 @@
                 <span class="tg-text">Кликните для перехода в TG-канал</span>
                 <div class="telegram__link-pointer">
                   <svg
+                    class="telegram-link__svg"
                     width="178"
                     height="73"
                     viewBox="0 0 178 73"
@@ -397,7 +401,10 @@
                 </div>
                 <div class="telegram__link-icon">
                   <a class="icon_tg" href="https://t.me/+-Mq_O6Y_M904MTZi"
-                    ><img src="./images/telegramIcon.png" alt="телеграм"
+                    ><img
+                      class="icon_tg-img"
+                      src="./images/telegramIcon.png"
+                      alt="телеграм"
                   /></a>
                 </div>
               </div>
@@ -521,13 +528,13 @@
             />
           </div>
         </div>
-        <footer class="waiting__for-you-container">
-          <p>Очень Вас ждем!</p>
-          <p>08.08.2024</p>
-        </footer>
       </section>
     </main>
 
+    <footer class="waiting__for-you-container">
+      <p>Очень Вас ждем!</p>
+      <p>08.08.2024</p>
+    </footer>
     <script src="./scripts/index.js"></script>
   </body>
 </html>
